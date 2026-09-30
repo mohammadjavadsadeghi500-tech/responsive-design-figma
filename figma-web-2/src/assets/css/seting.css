@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  /* dard  */
+  --bg-color-header: #1c1b17;
+  /* light */
+  --color-fonts-first: #ffffffcb;
+}
+
+/* links */
+.link-text {
+  text-decoration: none;
+  color: var(--color-fonts-first);
+}
+.link-icons {
+
+  /* text-decoration: none; */
+}
