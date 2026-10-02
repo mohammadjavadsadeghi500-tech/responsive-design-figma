@@ -10,7 +10,7 @@ var swiper = new Swiper(".mySwiper", {
     },
     // از 768px به بالا
     1028: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 10,
     },
     // از 1024px به بالا

@@ -100,6 +100,7 @@
         font-family: var(--font-Cormorant-Garamond);
         font-weight: 500;
         color: var(--color-fonts-second);
+    
       }
     }
     .child2 {
@@ -113,6 +114,7 @@
         font-family: var(--font-Cormorant-Garamond);
         font-weight: 500;
         color: var(--color-fonts-second);
+     
       }
     }
     .child3 {
@@ -182,6 +184,33 @@
             color: var(--color-fonts-second);
             transition: 300ms;
           }
+        }
+      }
+    }
+    .child4 {
+      width: 100%;
+      height: 300px;
+      display: none !important;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .gch-child4 {
+        width: 350px;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid rgba(128, 128, 128, 0.407);
+        border-top: none;
+        border-bottom: none;
+        p {
+          font-size: 24px;
+          font-weight: bold;
+          font-family: var(--font-Cormorant-Garamond);
+          color: #705b4f;
         }
       }
     }
@@ -365,7 +394,7 @@
             .child-b-button {
               width: 120px;
               height: 40px;
-          
+
               background-color: transparent;
               border: 1px solid var(--color-fonts-second);
               font-size: 16px;
