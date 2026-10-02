@@ -1,8 +1,9 @@
-@import url("./assets/css/desktop/desktop.css") screen and (min-width: 1020px);
+@import url("./assets/css/desktop/desktop.css") screen and (min-width: 1512px);
 
-@import url("./assets/css/tablet/tablet.css") screen and (max-width: 1020px) and
-  (min-width: 768px);
+@import url("./assets/css/tablet/tablet.css") screen and (max-width: 1512px) and
+  (min-width: 1028px);
 
-@import url("./assets/css/mobile/mobile.css") screen and (max-width: 768px);
+@import url("./assets/css/mobile/mobile.css") screen and (max-width: 431px);
 
 @import url("./assets/css/seting.css");
+/* r */
