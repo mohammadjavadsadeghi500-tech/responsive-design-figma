@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("Karla-Regular.eot");
+  src:
+    url("../../fonts/karla/Karla-Regular.eot") format("embedded-opentype"),
+    url("../../fonts/Karla/Karla-Regular.woff2") format("woff2"),
+    url("../../fonts/Karla/Karla-Regular.woff") format("woff"),
+    url("../../fonts/Karla/Karla-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant-Garamond";
+  src: url("CormorantGaramond-Regular.eot");
+  src:
+    url("../../fonts/cormorant-garamond/CormorantGaramond-Regular.eot")
+      format("embedded-opentype"),
+    url("../../fonts/cormorant-garamond/CormorantGaramond-Regular.woff2")
+      format("woff2"),
+    url("../../fonts/cormorant-garamond/CormorantGaramond-Regular.woff")
+      format("woff"),
+    url("../../fonts/cormorant-garamond/CormorantGaramond-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Regular.eot");
+  src:
+    url("../../fonts/montserrat/Montserrat-Regular.eot")
+      format("embedded-opentype"),
+    url("../../fonts/montserrat/Montserrat-Regular.woff2") format("woff2"),
+    url("../../fonts/montserrat/Montserrat-Regular.woff") format("woff"),
+    url("../../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+:root {
+  /* colors start */
+  /* dard  */
+  --bg-color-header: #1c1b17;
+  --color-fonts-second: #0c0606;
+  --bg-color-black: rgba(0, 0, 0, 0.971);
+  /* light */
+  --color-fonts-first: #ffffffcb;
+  --bg-color-main: white;
+  /* colors end */
+
+  /* fonts start */
+  --font-karla: Karla;
+  --font-Cormorant-Garamond: Cormorant-Garamond;
+  --font-Montserrat: Montserrat;
+  /* fonts end */
+}
+
+/* links */
+.link-text {
+  text-decoration: none;
+  color: var(--color-fonts-first);
+}
+.link-icons {
+  /* text-decoration: none; */
+}

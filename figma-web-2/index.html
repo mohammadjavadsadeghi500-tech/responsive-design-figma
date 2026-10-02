@@ -4,11 +4,570 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/main.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/main.css" />
     <title>figma-web-2</title>
   </head>
   <body>
-   
-    <script type="module" src="/src/main.js"></script>
+    <!-- header start -->
+
+    <header class="headerr">
+      <div class="nav-bar">
+        <div class="left-header">
+          <div class="gch-left">
+            <div class="gch-left-icon">
+              <a href="#" class="link-icons">
+                <svg viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.58333 19.5038C6.21502 18.3366 4.94671 17.0571 3.79167 15.6786C2.05833 13.6083 9.52135e-07 10.5251 9.52135e-07 7.58714C-0.000750771 6.08668 0.443635 4.61972 1.27692 3.37191C2.1102 2.12411 3.29493 1.15155 4.68116 0.577316C6.06739 0.00308394 7.59281 -0.147008 9.06438 0.146035C10.5359 0.439078 11.8875 1.16208 12.948 2.22355C13.6541 2.92648 14.2137 3.76247 14.5945 4.68312C14.9754 5.60378 15.1698 6.59083 15.1667 7.58714C15.1667 10.5251 13.1083 13.6083 11.375 15.6786C10.22 17.0571 8.95165 18.3366 7.58333 19.5038ZM7.58333 4.33714C6.72138 4.33714 5.89473 4.67955 5.28524 5.28904C4.67574 5.89853 4.33333 6.72518 4.33333 7.58714C4.33333 8.44909 4.67574 9.27574 5.28524 9.88523C5.89473 10.4947 6.72138 10.8371 7.58333 10.8371C8.44529 10.8371 9.27194 10.4947 9.88143 9.88523C10.4909 9.27574 10.8333 8.44909 10.8333 7.58714C10.8333 6.72518 10.4909 5.89853 9.88143 5.28904C9.27194 4.67955 8.44529 4.33714 7.58333 4.33714Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="gch-right">
+            <div class="gch-right-child">
+              <a class="link-text" href="#">
+                <p>about us</p>
+              </a>
+            </div>
+            <div class="gch-right-child">
+              <a href="#" class="link-text">
+                <p>procucts</p>
+              </a>
+            </div>
+            <div class="gch-right-child">
+              <a href="#" class="link-text">
+                <p>shop</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="middle-header">
+          <div class="logo">
+            <a href="#" class="link-img">
+              <img src="./src/images/logo-pic.png" alt="#" class="logo-main" />
+            </a>
+          </div>
+        </div>
+
+        <div class="right-header">
+          <div class="left">
+            <div class="input-body">
+              <input type="text" placeholder="search" />
+              <div class="icon-body">
+                <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.2414 12.3267L8.92998 8.01523C9.59902 7.15029 9.96094 6.09277 9.96094 4.98047C9.96094 3.64902 9.44131 2.40059 8.50166 1.45928C7.56201 0.517969 6.31025 0 4.98047 0C3.65068 0 2.39893 0.519629 1.45928 1.45928C0.517969 2.39893 0 3.64902 0 4.98047C0 6.31025 0.519629 7.56201 1.45928 8.50166C2.39893 9.44297 3.64902 9.96094 4.98047 9.96094C6.09277 9.96094 7.14863 9.59902 8.01357 8.93164L12.325 13.2414C12.3376 13.2541 12.3526 13.2641 12.3692 13.2709C12.3857 13.2778 12.4034 13.2813 12.4213 13.2813C12.4392 13.2813 12.4569 13.2778 12.4734 13.2709C12.4899 13.2641 12.5049 13.2541 12.5176 13.2414L13.2414 12.5192C13.2541 12.5066 13.2641 12.4916 13.2709 12.4751C13.2778 12.4585 13.2813 12.4408 13.2813 12.4229C13.2813 12.4051 13.2778 12.3874 13.2709 12.3708C13.2641 12.3543 13.2541 12.3393 13.2414 12.3267V12.3267ZM7.61015 7.61016C6.90625 8.3124 5.97324 8.69922 4.98047 8.69922C3.98769 8.69922 3.05469 8.3124 2.35078 7.61016C1.64853 6.90625 1.26172 5.97324 1.26172 4.98047C1.26172 3.9877 1.64853 3.05303 2.35078 2.35078C3.05469 1.64854 3.98769 1.26172 4.98047 1.26172C5.97324 1.26172 6.90791 1.64688 7.61015 2.35078C8.3124 3.05469 8.69922 3.9877 8.69922 4.98047C8.69922 5.97324 8.3124 6.90791 7.61015 7.61016Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="box-icons">
+              <div class="icon-item1">
+                <a href="#" class="icons">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.8301 6.09298C19.5421 5.42619 19.1269 4.82194 18.6076 4.31408C18.088 3.8047 17.4753 3.3999 16.8029 3.12169C16.1057 2.83207 15.3579 2.68382 14.6029 2.68556C13.5438 2.68556 12.5104 2.9756 11.6123 3.52345C11.3975 3.65451 11.1934 3.79845 11 3.95529C10.8066 3.79845 10.6025 3.65451 10.3877 3.52345C9.48965 2.9756 8.45625 2.68556 7.39707 2.68556C6.63438 2.68556 5.89531 2.83166 5.19707 3.12169C4.52246 3.40099 3.91445 3.80275 3.39238 4.31408C2.87245 4.82137 2.45712 5.42576 2.16992 6.09298C1.87129 6.78693 1.71875 7.52384 1.71875 8.28224C1.71875 8.99767 1.86484 9.74318 2.15488 10.5016C2.39766 11.1354 2.7457 11.7928 3.19043 12.4567C3.89512 13.5072 4.86406 14.6029 6.06719 15.7137C8.06094 17.5549 10.0354 18.8268 10.1191 18.8783L10.6283 19.2049C10.8539 19.3488 11.1439 19.3488 11.3695 19.2049L11.8787 18.8783C11.9625 18.8246 13.9348 17.5549 15.9307 15.7137C17.1338 14.6029 18.1027 13.5072 18.8074 12.4567C19.2522 11.7928 19.6023 11.1354 19.843 10.5016C20.133 9.74318 20.2791 8.99767 20.2791 8.28224C20.2813 7.52384 20.1287 6.78693 19.8301 6.09298V6.09298ZM11 17.5055C11 17.5055 3.35156 12.6049 3.35156 8.28224C3.35156 6.09298 5.1627 4.31837 7.39707 4.31837C8.96758 4.31837 10.3297 5.19494 11 6.47541C11.6703 5.19494 13.0324 4.31837 14.6029 4.31837C16.8373 4.31837 18.6484 6.09298 18.6484 8.28224C18.6484 12.6049 11 17.5055 11 17.5055Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="icon-item2">
+                <a href="#" class="icons">
+                  <svg
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.4375 6.5625V8.53125C14.4375 8.7053 14.3684 8.87222 14.2453 8.99529C14.1222 9.11836 13.9553 9.1875 13.7812 9.1875H13.125V6.5625H7.875V9.1875H7.21875C7.0447 9.1875 6.87778 9.11836 6.75471 8.99529C6.63164 8.87222 6.5625 8.7053 6.5625 8.53125V6.5625H3.9375V18.375H17.0625V6.5625H14.4375ZM6.5625 5.25C6.5625 4.20571 6.97734 3.20419 7.71577 2.46577C8.45419 1.72734 9.45571 1.3125 10.5 1.3125C11.5443 1.3125 12.5458 1.72734 13.2842 2.46577C14.0227 3.20419 14.4375 4.20571 14.4375 5.25H17.7188C17.8928 5.25 18.0597 5.31914 18.1828 5.44221C18.3059 5.56528 18.375 5.7322 18.375 5.90625V19.0312C18.375 19.2053 18.3059 19.3722 18.1828 19.4953C18.0597 19.6184 17.8928 19.6875 17.7188 19.6875H3.28125C3.1072 19.6875 2.94028 19.6184 2.81721 19.4953C2.69414 19.3722 2.625 19.2053 2.625 19.0312V5.90625C2.625 5.7322 2.69414 5.56528 2.81721 5.44221C2.94028 5.31914 3.1072 5.25 3.28125 5.25H6.5625ZM7.875 5.25H13.125C13.125 4.55381 12.8484 3.88613 12.3562 3.39384C11.8639 2.90156 11.1962 2.625 10.5 2.625C9.80381 2.625 9.13613 2.90156 8.64384 3.39384C8.15156 3.88613 7.875 4.55381 7.875 5.25V5.25Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M3.9375 14.4375H17.0625V15.75H3.9375V14.4375Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="icon-item3">
+                <a href="" class="icons">
+                  <svg
+                    width="22"
+                    height="24"
+                    viewBox="0 0 22 24"
+                    fill="red"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11 12C12.094 12 13.1432 11.5259 13.9168 10.682C14.6904 9.83807 15.125 8.69347 15.125 7.5C15.125 6.30653 14.6904 5.16193 13.9168 4.31802C13.1432 3.47411 12.094 3 11 3C9.90598 3 8.85677 3.47411 8.08318 4.31802C7.3096 5.16193 6.875 6.30653 6.875 7.5C6.875 8.69347 7.3096 9.83807 8.08318 10.682C8.85677 11.5259 9.90598 12 11 12V12ZM13.75 7.5C13.75 8.29565 13.4603 9.05871 12.9445 9.62132C12.4288 10.1839 11.7293 10.5 11 10.5C10.2707 10.5 9.57118 10.1839 9.05546 9.62132C8.53973 9.05871 8.25 8.29565 8.25 7.5C8.25 6.70435 8.53973 5.94129 9.05546 5.37868C9.57118 4.81607 10.2707 4.5 11 4.5C11.7293 4.5 12.4288 4.81607 12.9445 5.37868C13.4603 5.94129 13.75 6.70435 13.75 7.5V7.5ZM19.25 19.5C19.25 21 17.875 21 17.875 21H4.125C4.125 21 2.75 21 2.75 19.5C2.75 18 4.125 13.5 11 13.5C17.875 13.5 19.25 18 19.25 19.5ZM17.875 19.494C17.8736 19.125 17.6633 18.015 16.731 16.998C15.8345 16.02 14.1474 15 11 15C7.85125 15 6.1655 16.02 5.269 16.998C4.33675 18.015 4.12775 19.125 4.125 19.494H17.875Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- main start  -->
+    <div class="mainn">
+      <!-- pic + text  start-->
+      <div class="img-back-box">
+        <div class="img-back">
+          <div class="text-box">
+            <div class="back-img-text1">
+              <p>The Autumn Equinox</p>
+            </div>
+            <div class="back-img-text2">
+              <p>Fall has arrived.</p>
+              <p>Shop for our new releases starting today.</p>
+            </div>
+            <div class="back-img-button">
+              <button>shop now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- pic + text end -->
+      <!-- products start -->
+
+      <div class="product-body">
+        <div class="child1">
+          <p>Shop by category</p>
+        </div>
+        <div class="child2">
+          <p>Indulge in what we offer.</p>
+        </div>
+        <div class="child3">
+          <div class="gch-products">
+            <div class="product-top">
+              <img src="./src/images/pro-1.png" alt="#" />
+            </div>
+            <div class="product-top2">
+              <img src="./src/images/pro-5.png" alt="#" />
+            </div>
+            <div class="product-bottom">
+              <p>Necklaces</p>
+            </div>
+          </div>
+          <div class="gch-products">
+            <div class="product-top">
+              <img src="./src/images/pro-2.png" alt="#" />
+            </div>
+            <div class="product-top2">
+              <img src="./src/images/pro-1.png" alt="#" />
+            </div>
+            <div class="product-bottom">
+              <p>Earrings</p>
+            </div>
+          </div>
+          <div class="gch-products">
+            <div class="product-top">
+              <img src="./src/images/pro-3.png" alt="#" />
+            </div>
+            <div class="product-top2">
+              <img src="./src/images/pro-1.png" alt="#" />
+            </div>
+            <div class="product-bottom">
+              <p>Bracelets</p>
+            </div>
+          </div>
+          <div class="gch-products">
+            <div class="product-top">
+              <img src="./src/images/pro-4.png" alt="#" />
+            </div>
+            <div class="product-top2">
+              <img src="./src/images/pro-1.png" alt="#" />
+            </div>
+            <div class="product-bottom">
+              <p>Rings</p>
+            </div>
+          </div>
+          <div class="gch-products">
+            <div class="product-top">
+              <img src="./src/images/pro-5.png" alt="#" />
+            </div>
+            <div class="product-top2">
+              <img src="./src/images/pro-1.png" alt="#" />
+            </div>
+            <div class="product-bottom">
+              <p>Charms</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- products end -->
+      <!-- text-pic-1 start  -->
+
+      <div class="text-pic-1">
+        <div class="pic-left-body">
+          <img src="./src/images/text-pic-1.png" alt="" />
+        </div>
+        <div class="text-right-body">
+          <div class="text-top">
+            <p>ARTICLE • OCTOBER 2022</p>
+          </div>
+          <div class="text-bottom">
+            <div class="gch-text-bottom1">
+              <p>During the golden hour.</p>
+            </div>
+            <div class="gch-text-bottom2">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Metus vulputate eu scelerisque felis imperdiet proin fermentum.
+                Cras semper auctor neque vitae tempus quam pellentesque.
+                Elementum sagittis vitae et leo duis.
+              </p>
+            </div>
+            <div class="gch-text-bottom3">
+              <p>
+                Elementum sagittis vitae et leo duis. Libero nunvc consequat
+                interdum varius. Habitant morbi tristique senectus et netus et
+                malesuada fames ac.
+              </p>
+            </div>
+            <div class="gch-text-bottom4">
+              <div class="gch-text-button">
+                <button>read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- text-pic-1 end -->
+      <!-- text-pic-2 start -->
+      <div class="text-pic-2">
+        <div class="text-pic-2-body">
+          <div class="text-left">
+            <div class="box-box">
+              <div class="child-u">
+                <p>Gifts of the season</p>
+              </div>
+              <div class="child-m">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Metus vulputate eu scelerisque felis imperdiet proin
+                  fermentum. Cras semper auctor neque vitae tempus quam
+                  pellentesque. Elementum sagittis vitae et leo duis.
+                </p>
+              </div>
+              <div class="child-b">
+                <button class="child-b-button">shop gifts</button>
+              </div>
+            </div>
+          </div>
+          <div class="pic-right">
+            <img src="./src/images/text-pic-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- text-pic-2 end -->
+      <!-- text-pic-3 start  -->
+
+      <div class="text-pic-3">
+        <div class="pic-left-body">
+          <img src="./src/images/text-pic-3.png" alt="" />
+        </div>
+        <div class="text-right-body">
+          <div class="text-top">
+            <p>ARTICLE • OCTOBER 2022</p>
+          </div>
+          <div class="text-bottom">
+            <div class="gch-text-bottom1">
+              <p>What were we made for?</p>
+            </div>
+            <div class="gch-text-bottom2">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Metus vulputate eu scelerisque felis imperdiet proin fermentum.
+                Cras semper auctor neque vitae tempus quam pellentesque.
+                Elementum sagittis vitae et leo duis.
+              </p>
+            </div>
+            <div class="gch-text-bottom3">
+              <p>
+                Elementum sagittis vitae et leo duis. Libero nunc consequat
+                interdum varius. Habitant morbi tristique senectus et netus et
+                malesuada fames ac.
+              </p>
+            </div>
+            <div class="gch-text-bottom4">
+              <div class="gch-text-button">
+                <button>about us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- text-pic-3 end -->
+      <!-- swiper products start -->
+      <div class="pro-swip">
+        <div class="title-prod">
+          <p class="p1">Trending Products</p>
+          <p class="p2">Add Featured products to weekly lineup</p>
+        </div>
+        <div class="swip-body">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img src="./src/images/swiper-pic1.png" alt="" />
+                </div>
+                <div class="swiper-texts">
+                  <p class="p1">Necklaces</p>
+                  <p class="p2">Lorem ipsum dolor</p>
+                  <p class="p3">$11.90</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img src="./src/images/swiper-pic4.png" alt="" />
+                </div>
+                <div class="swiper-texts">
+                  <p class="p1">Charms</p>
+                  <p class="p2">Lorem ipsum dolor</p>
+                  <p class="p3">$11.90</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img src="./src/images/swiper-pic4.png" alt="" />
+                </div>
+                <div class="swiper-texts">
+                  <p class="p1">earings</p>
+                  <p class="p2">Lorem ipsum dolor</p>
+                  <p class="p3">$11.90</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img src="./src/images/swiper-pic3.png" alt="" />
+                </div>
+                <div class="swiper-texts">
+                  <p class="p1">Rings</p>
+                  <p class="p2">Lorem ipsum dolor</p>
+                  <p class="p3">$11.90</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img src="./src/images/swiper-pic5.png" alt="" />
+                </div>
+                <div class="swiper-texts">
+                  <p class="p1">Earrings</p>
+                  <p class="p2">Lorem ipsum dolor</p>
+                  <p class="p3">$11.90</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- swiper products end -->
+    </div>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="foot">
+      <div class="foot-child-up">
+        <div class="info-child1">
+          <ul class="info">
+            <li class="info-list">
+              <p class="first-line">CUSTOMER SERVICES</p>
+            </li>
+            <li class="info-list">
+              <p>Contact Us</p>
+            </li>
+            <li class="info-list">
+              <p>Track your Order</p>
+            </li>
+            <li class="info-list">
+              <p>Shipping & Returns</p>
+            </li>
+            <li class="info-list">
+              <p>Frequently Asked Questions</p>
+            </li>
+            <li class="info-list">
+              <p>Schedule an appointment</p>
+            </li>
+          </ul>
+        </div>
+        <div class="info-child2">
+          <ul class="info">
+            <li class="info-list">
+              <p class="first-line">ABOUT US</p>
+            </li>
+            <li class="info-list">
+              <p>Origins</p>
+            </li>
+            <li class="info-list">
+              <p>Our Purpose</p>
+            </li>
+            <li class="info-list">
+              <p>Careers</p>
+            </li>
+            <li class="info-list">
+              <p>Sustainability</p>
+            </li>
+            <li class="info-list">
+              <p>Giving Back</p>
+            </li>
+          </ul>
+        </div>
+        <div class="info-child3">
+          <ul class="info">
+            <li class="info-list">
+              <p class="first-line">MATERIAL CARE</p>
+            </li>
+            <li class="info-list">
+              <p>Jewelry Repair</p>
+            </li>
+            <li class="info-list">
+              <p>Ring Sizing</p>
+            </li>
+            <li class="info-list">
+              <p>Metal Allergy Resources</p>
+            </li>
+            <li class="info-list">
+              <p>Styling Tips</p>
+            </li>
+          </ul>
+        </div>
+        <div class="info-child4">
+          <ul class="info">
+            <li class="info-list">
+              <p class="first-line">MAIN LOCATIONS</p>
+            </li>
+            <li class="info-list">
+              <p>Chicago, IL</p>
+            </li>
+            <li class="info-list">
+              <p>San Francisco, CA</p>
+            </li>
+            <li class="info-list">
+              <p>New York, NY</p>
+            </li>
+            <li class="info-list">
+              <p>Seattle, WA</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-child5">
+          <div class="logo-top">
+            <img src="./src/images/logo-footer.png" alt="" />
+          </div>
+          <div class="info-icons">
+            <svg
+              width="20"
+              height="15"
+              viewBox="0 0 20 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.4472 2.22717C19.3348 1.79736 19.1157 1.40824 18.8133 1.10116C18.5024 0.784633 18.1214 0.558216 17.7061 0.443278C16.152 0.00439659 9.92578 0.00439669 9.92578 0.00439669C7.33012 -0.0272447 4.7351 0.111922 2.15537 0.421112C1.74011 0.544542 1.35976 0.776017 1.04815 1.09495C0.741968 1.41059 0.520193 1.79982 0.40434 2.22629C0.12604 3.83263 -0.00917785 5.46367 0.000510731 7.09742C-0.0094195 8.72971 0.125466 10.3602 0.40434 11.9686C0.51771 12.3933 0.738658 12.7807 1.04567 13.0937C1.35268 13.4067 1.73499 13.6328 2.15537 13.7525C3.73014 14.1904 9.92578 14.1904 9.92578 14.1904C12.5247 14.2221 15.1231 14.083 17.7061 13.7737C18.1214 13.6588 18.5024 13.4324 18.8133 13.1159C19.1156 12.8088 19.3344 12.4197 19.4464 11.9898C19.732 10.3841 19.8708 8.7524 19.861 7.11782C19.8825 5.47632 19.7438 3.8369 19.4472 2.22629V2.22717ZM7.94635 10.1332V4.06249L13.1266 7.09831L7.94635 10.1332Z"
+                fill="white"
+                fill-opacity="0.59"
+              />
+            </svg>
+            <svg
+              width="17"
+              height="14"
+              viewBox="0 0 17 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 1.66066C16.3748 1.94128 15.7033 2.1309 14.9972 2.2166C15.7257 1.77503 16.2707 1.08003 16.5306 0.261302C15.8461 0.673137 15.0971 0.963023 14.3159 1.11836C13.7906 0.550172 13.0948 0.173569 12.3366 0.0470186C11.5784 -0.0795316 10.8001 0.0510517 10.1226 0.418495C9.44514 0.785938 8.90638 1.36968 8.58996 2.0791C8.27354 2.78852 8.19718 3.58391 8.37272 4.3418C6.98589 4.27126 5.6292 3.90611 4.3907 3.27003C3.1522 2.63395 2.05956 1.74117 1.1837 0.649633C0.884216 1.17297 0.712014 1.77973 0.712014 2.42594C0.71168 3.00767 0.853094 3.58049 1.12371 4.09358C1.39432 4.60667 1.78577 5.04416 2.26332 5.36724C1.70949 5.34938 1.16788 5.19778 0.683564 4.92506V4.97056C0.683508 5.78647 0.962105 6.57726 1.47208 7.20877C1.98206 7.84027 2.69201 8.27359 3.48146 8.43519C2.96769 8.57605 2.42904 8.5968 1.90619 8.49587C2.12893 9.19791 2.5628 9.81181 3.14706 10.2516C3.73133 10.6915 4.43674 10.9352 5.16454 10.9487C3.92906 11.9312 2.40325 12.4642 0.832555 12.4618C0.554324 12.4619 0.276328 12.4455 0 12.4125C1.59434 13.451 3.45027 14.0021 5.34572 14C11.7621 14 15.2698 8.61647 15.2698 3.9474C15.2698 3.79571 15.266 3.6425 15.2593 3.49081C15.9416 2.99097 16.5305 2.37201 16.9985 1.66293L17 1.66066Z"
+                fill="white"
+                fill-opacity="0.59"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M1.97862e-07 1.33673C1.97862e-07 0.982207 0.140834 0.642205 0.391519 0.39152C0.642204 0.140835 0.982205 1.78205e-06 1.33673 1.78205e-06H14.6618C14.8375 -0.000285165 15.0115 0.0340839 15.1739 0.101141C15.3363 0.168198 15.4839 0.266627 15.6082 0.390792C15.7325 0.514956 15.8311 0.662419 15.8983 0.824736C15.9655 0.987054 16.0001 1.16104 16 1.33673V14.6618C16.0002 14.8375 15.9657 15.0116 15.8986 15.174C15.8315 15.3364 15.733 15.4839 15.6087 15.6082C15.4845 15.7325 15.337 15.8311 15.1746 15.8983C15.0123 15.9655 14.8383 16.0001 14.6625 16H1.33673C1.16112 16 0.987243 15.9654 0.825016 15.8982C0.662789 15.831 0.515397 15.7324 0.391261 15.6082C0.267125 15.484 0.168678 15.3366 0.101544 15.1743C0.0344096 15.012 -9.53422e-05 14.8381 1.97862e-07 14.6625V1.33673ZM6.33309 6.10037H8.49964V7.18836C8.81236 6.56291 9.61236 6 10.8145 6C13.1193 6 13.6655 7.24582 13.6655 9.53164V13.7658H11.3331V10.0524C11.3331 8.75055 11.0204 8.016 10.2262 8.016C9.12436 8.016 8.66618 8.808 8.66618 10.0524V13.7658H6.33309V6.10037ZM2.33309 13.6662H4.66618V6H2.33309V13.6655V13.6662ZM5 3.49964C5.0044 3.6994 4.96885 3.89803 4.89545 4.08387C4.82204 4.2697 4.71226 4.43901 4.57253 4.58184C4.43281 4.72468 4.26596 4.83816 4.08179 4.91564C3.89761 4.99312 3.69981 5.03303 3.5 5.03303C3.30019 5.03303 3.10239 4.99312 2.91821 4.91564C2.73404 4.83816 2.56719 4.72468 2.42747 4.58184C2.28774 4.43901 2.17796 4.2697 2.10455 4.08387C2.03115 3.89803 1.9956 3.6994 2 3.49964C2.00863 3.10753 2.17046 2.7344 2.45083 2.46014C2.73119 2.18588 3.1078 2.03231 3.5 2.03231C3.8922 2.03231 4.26881 2.18588 4.54917 2.46014C4.82954 2.7344 4.99137 3.10753 5 3.49964Z"
+                fill="white"
+                fill-opacity="0.59"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="17"
+              viewBox="0 0 16 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M4.70182 0.051C5.55491 0.00927271 5.82691 0 8 0C10.1731 0 10.4451 0.0100454 11.2975 0.051C12.1498 0.0919545 12.7316 0.236455 13.2407 0.445864C13.7738 0.659909 14.2575 0.9945 14.6575 1.42723C15.0647 1.85145 15.3789 2.36455 15.5796 2.93173C15.7775 3.47264 15.9127 4.09082 15.952 4.99491C15.9913 5.90286 16 6.19186 16 8.5C16 10.8089 15.9905 11.0979 15.952 12.0043C15.9135 12.9084 15.7775 13.5266 15.5796 14.0675C15.3789 14.6348 15.0642 15.1487 14.6575 15.5735C14.2575 16.0063 13.7738 16.3401 13.2407 16.5534C12.7316 16.7635 12.1498 16.9073 11.2989 16.949C10.4451 16.9907 10.1731 17 8 17C5.82691 17 5.55491 16.99 4.70182 16.949C3.85091 16.908 3.26909 16.7635 2.76 16.5534C2.22612 16.3401 1.74241 16.0057 1.34255 15.5735C0.935549 15.1491 0.620593 14.6354 0.419636 14.0683C0.222545 13.5274 0.0872727 12.9092 0.048 12.0051C0.00872726 11.0971 0 10.8081 0 8.5C0 6.19109 0.00945454 5.90209 0.048 4.99645C0.0865454 4.09082 0.222545 3.47264 0.419636 2.93173C0.620889 2.36461 0.936086 1.85092 1.34327 1.42645C1.74257 0.994115 2.2258 0.659479 2.75927 0.445864C3.26836 0.236455 3.85018 0.0927273 4.70109 0.051H4.70182ZM11.2327 1.581C10.3891 1.54005 10.136 1.53155 8 1.53155C5.864 1.53155 5.61091 1.54005 4.76727 1.581C3.98691 1.61886 3.56364 1.75718 3.28145 1.87386C2.90836 2.02841 2.64145 2.21155 2.36145 2.50905C2.09603 2.7834 1.89177 3.1174 1.76364 3.48655C1.65382 3.78636 1.52364 4.23609 1.488 5.06523C1.44945 5.96159 1.44145 6.2305 1.44145 8.5C1.44145 10.7695 1.44945 11.0384 1.488 11.9348C1.52364 12.7639 1.65382 13.2136 1.76364 13.5135C1.89164 13.882 2.096 14.2166 2.36145 14.491C2.61964 14.773 2.93455 14.9901 3.28145 15.1261C3.56364 15.2428 3.98691 15.3811 4.76727 15.419C5.61091 15.46 5.86327 15.4685 8 15.4685C10.1367 15.4685 10.3891 15.46 11.2327 15.419C12.0131 15.3811 12.4364 15.2428 12.7185 15.1261C13.0916 14.9716 13.3585 14.7885 13.6385 14.491C13.904 14.2166 14.1084 13.882 14.2364 13.5135C14.3462 13.2136 14.4764 12.7639 14.512 11.9348C14.5505 11.0384 14.5585 10.7695 14.5585 8.5C14.5585 6.2305 14.5505 5.96159 14.512 5.06523C14.4764 4.23609 14.3462 3.78636 14.2364 3.48655C14.0909 3.09014 13.9185 2.80655 13.6385 2.50905C13.3803 2.22706 13.066 2.01003 12.7185 1.87386C12.4364 1.75718 12.0131 1.61886 11.2327 1.581ZM6.97818 11.1203C7.54884 11.3727 8.18428 11.4068 8.77595 11.2167C9.36762 11.0266 9.87883 10.6242 10.2223 10.0781C10.5657 9.53203 10.72 8.87622 10.6589 8.22267C10.5978 7.56913 10.3251 6.95839 9.88727 6.49477C9.60817 6.19841 9.2707 5.97149 8.89915 5.83034C8.5276 5.68919 8.13122 5.63732 7.73854 5.67848C7.34586 5.71963 6.96666 5.85277 6.62822 6.06833C6.28979 6.28388 6.00054 6.57648 5.78131 6.92507C5.56208 7.27365 5.41832 7.66954 5.36038 8.08424C5.30243 8.49894 5.33175 8.92214 5.44621 9.32335C5.56068 9.72457 5.75744 10.0938 6.02234 10.4046C6.28724 10.7153 6.61369 10.9597 6.97818 11.1203ZM5.09236 5.41064C5.4742 5.00494 5.92751 4.68312 6.4264 4.46355C6.92529 4.24399 7.46 4.13098 8 4.13098C8.54 4.13098 9.07471 4.24399 9.5736 4.46355C10.0725 4.68312 10.5258 5.00494 10.9076 5.41064C11.2895 5.81634 11.5924 6.29797 11.799 6.82805C12.0057 7.35812 12.112 7.92625 12.112 8.5C12.112 9.07375 12.0057 9.64188 11.799 10.172C11.5924 10.702 11.2895 11.1837 10.9076 11.5894C10.1365 12.4087 9.09058 12.869 8 12.869C6.90942 12.869 5.86352 12.4087 5.09236 11.5894C4.32121 10.77 3.88798 9.65874 3.88798 8.5C3.88798 7.34126 4.32121 6.22999 5.09236 5.41064ZM13.024 4.78164C13.1186 4.6868 13.1944 4.57275 13.2468 4.44625C13.2992 4.31975 13.3271 4.18337 13.329 4.04517C13.3309 3.90698 13.3067 3.76979 13.2578 3.64172C13.2089 3.51365 13.1363 3.3973 13.0443 3.29958C12.9524 3.20185 12.8429 3.12472 12.7223 3.07276C12.6018 3.02081 12.4727 2.99507 12.3426 2.99709C12.2125 2.9991 12.0842 3.02882 11.9651 3.08449C11.8461 3.14016 11.7387 3.22065 11.6495 3.32118C11.4759 3.5167 11.3808 3.77641 11.3845 4.04517C11.3882 4.31393 11.4903 4.57059 11.6692 4.76065C11.8481 4.95071 12.0896 5.05922 12.3426 5.06314C12.5955 5.06706 12.84 4.96608 13.024 4.78164Z"
+                fill="white"
+                fill-opacity="0.59"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="18"
+              viewBox="0 0 16 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 0C3.58196 0 0 4.05403 0 9.05433C0 13.5729 2.92509 17.3181 6.75028 18V11.6722H4.71807V9.05433H6.75028V7.05946C6.75028 4.78841 7.9448 3.53607 9.77138 3.53607C10.6467 3.53607 11.5636 3.71265 11.5636 3.71265V5.93933H10.5523C9.56016 5.93933 9.24973 6.63839 9.24973 7.35466V9.05252H11.4667L11.1123 11.6704H9.24973V17.9982C13.0749 17.32 16 13.5738 16 9.05433C16 4.05403 12.418 0 8 0Z"
+                fill="white"
+                fill-opacity="0.59"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="foot-child-bottom">
+        <div class="left-info">
+          <p>© All rights reserved</p>
+        </div>
+        <div class="right-info">
+          <p>PRIVACY POLICY</p>
+          <p>.</p>
+          <p>TERMS OF USE</p>
+          <p>.</p>
+          <p>SITEMAP</p>
+          <p>.</p>
+          <p>DO NOT SELL MY INFORMATION</p>
+          <p>.</p>
+          <p>COOKIES</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
