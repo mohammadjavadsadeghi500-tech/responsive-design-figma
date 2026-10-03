@@ -55,14 +55,12 @@
               }
             }
             .icon-item4 {
-              transition: 300ms;
               opacity: 0.7;
-              width: 30px !important;
-              height: 30px !important;
-          
-              &:hover {
-                stroke: whitesmoke;
-                opacity: 1;
+              width: 20px !important;
+              height: 20px !important;
+              svg {
+                width: fit-content;
+                height: fit-content;
               }
             }
           }
@@ -159,7 +157,7 @@
               fill: gray !important;
               stroke: black !important;
               transition: 300ms;
-              &:hover {
+              &:active {
                 fill: whitesmoke !important;
               }
             }
