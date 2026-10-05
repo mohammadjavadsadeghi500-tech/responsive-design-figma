@@ -1,11 +1,11 @@
 .mainn {
-  width: 431px !important;
+  width: 375px !important;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-flow: column;
   margin: 0 auto !important;
-
+  
   .img-back-box {
     width: 100%;
     height: 650px;
@@ -30,6 +30,8 @@
       display: flex;
       flex-flow: column;
       justify-content: space-between;
+      margin-bottom: 50px;
+     
       .back-img-text1 {
         width: 361px;
         height: 100px;
@@ -47,8 +49,8 @@
         /* padding-left: 30px; */
         p {
           font-family: var(--font-Montserrat);
-          font-size: 18px !important;
-          font-weight: 400;
+          font-size: 15px !important;
+          font-weight: 500;
           color: var(--color-fonts-first);
         }
       }
@@ -240,7 +242,7 @@
       flex-flow: column;
       position: absolute;
       top: 110px;
-      left: 0;
+      left: -30px;
       justify-content: flex-end;
       /* background-color: black; */
       padding: 0px 50px;
@@ -280,13 +282,13 @@
         }
         .gch-text-bottom2,
         .gch-text-bottom3 {
-          width: 340px;
+          width: 320px;
           height: 190px;
           display: flex;
           align-items: center;
           p {
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 500;
             font-family: var(--font-Montserrat);
             color: var(--color-fonts-first);
           }
@@ -341,7 +343,7 @@
       justify-content: center;
       align-items: center;
       .pic-right {
-        width: 430px;
+        width: 375px;
         height: 100%;
         /* position: absolute;
         right: 0;
@@ -355,7 +357,7 @@
         /* position: absolute;
         left: 0;
         top: 20%; */
-        width: 430px;
+        width: 375px;
         height: 100%;
         display: flex;
         flex-flow: column;
@@ -364,7 +366,7 @@
         background-color: #7796af2e;
 
         .box-box {
-          width: 430px;
+          width: 375px;
           height: 100%;
           display: flex;
           flex-flow: column;
@@ -374,7 +376,7 @@
           padding: 0px 60px;
           .child-u {
             width: 100%;
-            height: 35px;
+            height: 30px;
             margin-bottom: 30px;
             p {
               font-family: var(--font-Cormorant-Garamond);
@@ -385,11 +387,11 @@
             }
           }
           .child-m {
-            width: 350px;
+            width: 300px;
             height: 200px;
             p {
               font-family: var(--font-Montserrat);
-              font-size: 16px;
+              font-size: 15px;
               font-weight: 400;
               color: var(--color-fonts-second);
             }
@@ -447,7 +449,7 @@
       flex-flow: column;
       position: absolute;
       top: 110px;
-      left: 0;
+      left: -30px;
       justify-content: flex-end;
       /* background-color: black; */
       padding: 0px 50px;
